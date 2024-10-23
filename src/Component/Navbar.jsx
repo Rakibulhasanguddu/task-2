@@ -6,7 +6,7 @@ import { IoMdClose } from "react-icons/io";
 const Navbar = () => {
     const [open, setOpen] = useState(true);
     return (
-        <div className="container mx-auto relative bottom-[250px] right-3 left-5">
+        <div className="container mx-auto lg:relative pl-5 pr-5 bottom-[250px] right-3 left-5">
             <nav className=" flex items-center justify-between md:space-x-6">
         {/* logo */}
         <div className=" text-2xl select-none text-white">Stress <br />Free</div>
